@@ -37,7 +37,7 @@
 **Понять:** амортизированную стоимость операций над массивом, in-place модификации.
 
 - [*] Can Place Flowers (#605) — база
-- [ ] Remove Duplicates from Sorted Array (#26) _(решена в старом плане — перепроверить вслепую)_
+- [*] Remove Duplicates from Sorted Array (#26)
 - [ ] Rotate Array (#189)
 - [ ] Find All Numbers Disappeared in an Array (#448)
 - [ ] Move Zeroes (#283)
