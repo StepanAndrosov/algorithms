@@ -1,3 +1,5 @@
+// Can Place Flowers (#605)
+
 function canPlaceFlowers(flowerbed: number[], n: number): boolean {
   let copybed = flowerbed;
   let countFlowers = n;
