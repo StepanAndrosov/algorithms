@@ -41,7 +41,7 @@
 - [*] Nearest Available Drone (#4024) _(решена, идею понял, нужно прорешать еще)_
 - [*] Elevator Requests I (#4020)
 - [*] Find All Numbers Disappeared in an Array (#448)
-- [ ] Move Zeroes (#283)
+- [*] Move Zeroes (#283)
 - [ ] Rotate Array (#189) _(пока сложно)_
 - [ ] Maximum Product Subarray (#152) — бонус, сложнее остальных
 
