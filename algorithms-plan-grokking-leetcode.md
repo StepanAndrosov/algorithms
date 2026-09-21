@@ -38,9 +38,11 @@
 
 - [*] Can Place Flowers (#605) — база
 - [*] Remove Duplicates from Sorted Array (#26)
-- [ ] Rotate Array (#189)
+- [*] Nearest Available Drone (#4024) _(решена, идею понял, нужно прорешать еще)_
+- [*] Elevator Requests I (#4020)
 - [ ] Find All Numbers Disappeared in an Array (#448)
 - [ ] Move Zeroes (#283)
+- [ ] Rotate Array (#189)
 - [ ] Maximum Product Subarray (#152) — бонус, сложнее остальных
 
 ## 2. Строки (задачи 7–12)
