@@ -42,15 +42,14 @@
 - [*] Elevator Requests I (#4020)
 - [*] Find All Numbers Disappeared in an Array (#448)
 - [*] Move Zeroes (#283)
-- [ ] Rotate Array (#189) _(пока сложно)_
-- [ ] Maximum Product Subarray (#152) — бонус, сложнее остальных
+- [*] Rotate Array (#189) _(три reverse, перерещать)_
 
 ## 2. Строки (задачи 7–12)
 
 **Понять:** строки как массивы символов, immutability строк в некоторых языках.
 
-- [ ] Reverse String (#344) — база _(решена в старом плане рекурсивно)_
-- [ ] Valid Palindrome (#125) _(решена — заодно мостик к модулю «Два указателя»)_
+- [] Reverse String (#344) — база _(решена в старом плане рекурсивно)_
+- [*] Valid Palindrome (#125) _(решена — заодно мостик к модулю «Два указателя»)_
 - [ ] Longest Common Prefix (#14)
 - [ ] Ransom Note (#383)
 - [ ] Find the Index of the First Occurrence in a String (#28)
