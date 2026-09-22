@@ -19,11 +19,17 @@
 
 function rotate(nums: number[], k: number): void {
   const iterationsCount = k % nums.length;
-  for (let i = 0; i < iterationsCount; i++) {
-    const last = nums.splice(nums.length - 1, 1);
-    nums.unshift(last[0]);
+  reverse(nums, 0, nums.length - 1);
+  reverse(nums, 0, iterationsCount - 1);
+  reverse(nums, iterationsCount, nums.length - 1);
+}
+
+function reverse(nums: number[], start: number, end: number) {
+  while (start < end) {
+    [nums[start], nums[end]] = [nums[end], nums[start]];
+    start++;
+    end--;
   }
-  console.log(nums);
 }
 
 rotate([1, 2, 3, 4, 5, 6, 7], 3);
