@@ -48,9 +48,9 @@
 
 **Понять:** строки как массивы символов, immutability строк в некоторых языках.
 
-- [] Reverse String (#344) — база _(решена в старом плане рекурсивно)_
+- [*] Reverse String (#344) — база _(решена в старом плане рекурсивно)_
 - [*] Valid Palindrome (#125) _(решена — заодно мостик к модулю «Два указателя»)_
-- [*] Longest Common Prefix (#14)
+- [*] Longest Common Prefix (#14) _(перерещать)_
 - [ ] Ransom Note (#383)
 - [ ] Find the Index of the First Occurrence in a String (#28)
 - [ ] Reverse Words in a String (#151)

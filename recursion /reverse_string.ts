@@ -25,7 +25,7 @@
 //   }
 // }
 
-function reverseString(s: string[]) {
+function _reverseString(s: string[]) {
   function helper(start: number, end: number) {
     if (start >= end) return;
     [s[start], s[end]] = [s[end], s[start]];
@@ -34,6 +34,6 @@ function reverseString(s: string[]) {
   helper(0, s.length - 1);
 }
 const s = ['H', 'a', 'n', 'n', 'a', 'h'];
-reverseString(s);
+_reverseString(s);
 
 console.log(s);
