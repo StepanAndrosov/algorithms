@@ -12,5 +12,6 @@
 - `linked/` — связные списки
 - `recursion/` — рекурсия
 - `strings/` — строки
+- `js/` — JS-трек (LeetCode «30 Days of JavaScript»)
 
 Каждый файл — самостоятельное решение одной задачи на TS.
