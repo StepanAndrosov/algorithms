@@ -340,8 +340,8 @@ _Уровень 4 итого: 20 задач (сортировка + backtracking
 **Понять:** как устроены `map` / `filter` / `reduce` изнутри — реализовать их без встроенных методов.
 
 - [*] Apply Transform Over Each Element in Array (#2635) — база
-- [ ] Filter Elements from Array (#2634)
-- [ ] Array Reduce Transformation (#2626)
+- [*] Filter Elements from Array (#2634)
+- [*] Array Reduce Transformation (#2626)
 
 ## J3. Преобразования функций
 
