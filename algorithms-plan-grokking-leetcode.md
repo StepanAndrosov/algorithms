@@ -53,7 +53,7 @@
 - [*] Valid Palindrome (#125) _(решена — заодно мостик к модулю «Два указателя»)_
 - [*] Longest Common Prefix (#14) _(перерещать)_
 - [*] Ransom Note (#383)
-- [*] Find the Index of the First Occurrence in a String (#28)
+- [*] Find the Index of the First Occurrence in a String (#28) _(перерещать)_
 - [ ] Reverse Words in a String (#151)
 
 ## 3. Матрицы (задачи 14–19)

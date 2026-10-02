@@ -24,6 +24,7 @@ function slideStrStr(haystack: string, needle: string) {
   for (let i = 0; i < haystack.length; i++) {
     let isMatch = true;
     for (let j = 0; j < needle.length; j++) {
+      console.log('h:', haystack[i + j], 'n:', needle[j]);
       if (haystack[i + j] !== needle[j]) {
         isMatch = false;
         break;
@@ -35,5 +36,5 @@ function slideStrStr(haystack: string, needle: string) {
 }
 
 // console.log(slideStrStr('leetcode', 'leet')); // 0
-console.log(slideStrStr('leetcode', 'code')); // 4
-console.log(slideStrStr('leetcode', 'leeto')); // -1
+console.log(slideStrStr('leetcodex', 'code')); // 4
+// console.log(slideStrStr('leetcode', 'leeto')); // -1
