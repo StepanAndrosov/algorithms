@@ -347,7 +347,7 @@ _Уровень 4 итого: 20 задач (сортировка + backtracking
 
 **Понять:** функции высшего порядка, rest-параметры, композиция, обёртки над функцией (once, memoize).
 
-- [ ] Return Length of Arguments Passed (#2703) — база
+- [*] Return Length of Arguments Passed (#2703) — база
 - [*] Function Composition (#2629)
 - [ ] Allow One Function Call (#2666)
 - [ ] Memoize (#2623) — Medium, ключ кеша из аргументов
