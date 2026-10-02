@@ -91,7 +91,7 @@
 
 **Понять:** хеш-сет = хеш-таблица без значений, когда достаточно факта «видели/не видели».
 
-- [*] Contains Duplicate (#217) — база
+- [*] Contains Duplicate (#217) — база _(перерещать)_
 - [ ] Design HashSet (#705) — реализовать структуру своими руками
 - [ ] Intersection of Two Arrays (#349)
 - [ ] Longest Consecutive Sequence (#128)
