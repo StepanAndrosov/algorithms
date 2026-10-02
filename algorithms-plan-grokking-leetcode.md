@@ -42,6 +42,7 @@
 - [*] Nearest Available Drone (#4024) _(решена, идею понял, нужно прорешать еще)_
 - [*] Elevator Requests I (#4020)
 - [*] Find All Numbers Disappeared in an Array (#448)
+- [*] Missing Number (#268) _(перерещать)_
 - [*] Move Zeroes (#283)
 - [*] Rotate Array (#189) _(три reverse, перерещать)_
 
