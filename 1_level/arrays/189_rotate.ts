@@ -17,19 +17,37 @@
 // rotate 1 steps to the right: [99,-1,-100,3]
 // rotate 2 steps to the right: [3,99,-1,-100]
 
-function rotate(nums: number[], k: number): void {
-  const iterationsCount = k % nums.length;
-  reverse(nums, 0, nums.length - 1);
-  reverse(nums, 0, iterationsCount - 1);
-  reverse(nums, iterationsCount, nums.length - 1);
-}
+// function rotate(nums: number[], k: number): void {
+//   const iterationsCount = k % nums.length;
+//   reverse(nums, 0, nums.length - 1);
+//   reverse(nums, 0, iterationsCount - 1);
+//   reverse(nums, iterationsCount, nums.length - 1);
+// }
 
+// function reverse(nums: number[], start: number, end: number) {
+//   while (start < end) {
+//     [nums[start], nums[end]] = [nums[end], nums[start]];
+//     start++;
+//     end--;
+//   }
+// }
+
+function rotate(nums: number[], k: number): void {
+  reverse(nums, 0, nums.length - 1);
+  reverse(nums, 0, k - 1);
+  reverse(nums, k, nums.length - 1);
+}
 function reverse(nums: number[], start: number, end: number) {
   while (start < end) {
     [nums[start], nums[end]] = [nums[end], nums[start]];
+
     start++;
     end--;
   }
 }
 
-rotate([1, 2, 3, 4, 5, 6, 7], 3);
+const arr1 = [1, 2, 3, 4, 5, 6, 7];
+
+rotate(arr1, 3);
+
+console.log(arr1); // [5,6,7,1,2,3,4]

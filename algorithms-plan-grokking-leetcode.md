@@ -42,16 +42,16 @@
 - [*] Nearest Available Drone (#4024) _(решена, идею понял, нужно прорешать еще)_
 - [*] Elevator Requests I (#4020)
 - [*] Find All Numbers Disappeared in an Array (#448)
-- [*] Missing Number (#268) _(перерещать)_
+- [*] Missing Number (#268)
 - [*] Move Zeroes (#283)
-- [*] Rotate Array (#189) _(три reverse, перерещать)_
+- [*] Rotate Array (#189) _(перерещать после 5. Модуло, целочисленное деление)_
 
 ## 2. Строки (задачи 8–13)
 
 **Понять:** строки как массивы символов, immutability строк в некоторых языках.
 
-- [*] Reverse String (#344) — база _(решена в старом плане рекурсивно)_
-- [*] Valid Palindrome (#125) _(решена — заодно мостик к модулю «Два указателя»)_
+- [*] Reverse String (#344) — база
+- [*] Valid Palindrome (#125)
 - [*] Longest Common Prefix (#14) _(перерещать)_
 - [*] Ransom Note (#383)
 - [*] Find the Index of the First Occurrence in a String (#28) _(перерещать)_
@@ -61,7 +61,7 @@
 
 **Понять:** индексацию по строкам/столбцам, обход по слоям.
 
-- [ ] Transpose Matrix (#867) — база
+- [*] Transpose Matrix (#867) — база _(посмотреть др. варианты решений)_
 - [ ] Spiral Matrix (#54)
 - [ ] Rotate Image (#48)
 - [ ] Set Matrix Zeroes (#73)
@@ -93,6 +93,7 @@
 **Понять:** хеш-сет = хеш-таблица без значений, когда достаточно факта «видели/не видели».
 
 - [*] Contains Duplicate (#217) — база _(перерещать)_
+- [ ] Single Number (#136)
 - [ ] Design HashSet (#705) — реализовать структуру своими руками
 - [ ] Intersection of Two Arrays (#349)
 - [ ] Longest Consecutive Sequence (#128)
