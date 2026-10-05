@@ -62,7 +62,7 @@
 **Понять:** индексацию по строкам/столбцам, обход по слоям.
 
 - [*] Transpose Matrix (#867) — база _(посмотреть др. варианты решений)_
-- [ ] Spiral Matrix (#54)
+- [*] Spiral Matrix (#54)
 - [ ] Rotate Image (#48)
 - [ ] Set Matrix Zeroes (#73)
 - [ ] Valid Sudoku (#36)
@@ -351,7 +351,7 @@ _Уровень 4 итого: 20 задач (сортировка + backtracking
 
 - [*] Return Length of Arguments Passed (#2703) — база
 - [*] Function Composition (#2629)
-- [ ] Allow One Function Call (#2666)
+- [*] Allow One Function Call (#2666)
 - [ ] Memoize (#2623) — Medium, ключ кеша из аргументов
 
 ## J4. Объекты и массивы: утилиты
