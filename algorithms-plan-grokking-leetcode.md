@@ -352,13 +352,13 @@ _Уровень 4 итого: 20 задач (сортировка + backtracking
 - [*] Return Length of Arguments Passed (#2703) — база
 - [*] Function Composition (#2629)
 - [*] Allow One Function Call (#2666)
-- [ ] Memoize (#2623) — Medium, ключ кеша из аргументов
+- [*] Memoize (#2623) — Medium, ключ кеша из аргументов _(перерещать)_
 
 ## J4. Объекты и массивы: утилиты
 
 **Понять:** работу с объектами как словарями, расширение прототипа, сортировку с компаратором, группировку.
 
-- [ ] Is Object Empty (#2727) — база
+- [*] Is Object Empty (#2727) — база
 - [ ] Chunk Array (#2677)
 - [ ] Array Prototype Last (#2619) — расширение `Array.prototype`, `this`
 - [ ] Sort By (#2724)
@@ -384,7 +384,7 @@ _Уровень 4 итого: 20 задач (сортировка + backtracking
 
 **Понять:** `Promise`, `async/await`, `setTimeout` / `setInterval` и их отмена через `clearTimeout` / `clearInterval`.
 
-- [ ] Add Two Promises (#2723) — база
+- [*] Add Two Promises (#2723) — база
 - [ ] Sleep (#2621)
 - [ ] Timeout Cancellation (#2715)
 - [ ] Interval Cancellation (#2725)
