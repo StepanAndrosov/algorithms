@@ -359,7 +359,7 @@ _Уровень 4 итого: 20 задач (сортировка + backtracking
 **Понять:** работу с объектами как словарями, расширение прототипа, сортировку с компаратором, группировку.
 
 - [*] Is Object Empty (#2727) — база
-- [ ] Chunk Array (#2677)
+- [*] Chunk Array (#2677) _(resolve with slice)_
 - [ ] Array Prototype Last (#2619) — расширение `Array.prototype`, `this`
 - [ ] Sort By (#2724)
 - [ ] Group By (#2631) — Medium
