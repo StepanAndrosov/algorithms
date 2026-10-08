@@ -360,9 +360,9 @@ _Уровень 4 итого: 20 задач (сортировка + backtracking
 
 - [*] Is Object Empty (#2727) — база
 - [*] Chunk Array (#2677) _(resolve with slice)_
-- [ ] Array Prototype Last (#2619) — расширение `Array.prototype`, `this`
-- [ ] Sort By (#2724)
-- [ ] Group By (#2631) — Medium
+- [*] Array Prototype Last (#2619) — расширение `Array.prototype`, `this`
+- [*] Sort By (#2724) _(решил на сайте)_
+- [*] Group By (#2631) — Medium _(перерещать, пересмотреть for in, for of)_
 - [ ] Join Two Arrays by ID (#2722) — Medium, мостик к хеш-таблицам (модуль 7)
 
 ## J5. Вложенные структуры (рекурсия)
