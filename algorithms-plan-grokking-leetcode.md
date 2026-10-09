@@ -63,7 +63,7 @@
 
 - [*] Transpose Matrix (#867) — база _(посмотреть др. варианты решений)_
 - [*] Spiral Matrix (#54)
-- [ ] Rotate Image (#48)
+- [ ] Rotate Image (#48) _(решил O(N³), перерешать на Транспонирование + разворот строк)_
 - [ ] Set Matrix Zeroes (#73)
 - [ ] Valid Sudoku (#36)
 - [ ] Reshape the Matrix (#566)
