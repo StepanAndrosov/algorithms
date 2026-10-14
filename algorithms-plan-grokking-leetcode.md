@@ -63,7 +63,7 @@
 
 - [*] Transpose Matrix (#867) — база _(посмотреть др. варианты решений)_
 - [*] Spiral Matrix (#54)
-- [ ] Rotate Image (#48) _(решил O(N³), перерешать на Транспонирование + разворот строк)_
+- [*] Rotate Image (#48) _(решил O(N³), перерешать на Транспонирование + разворот строк)_
 - [ ] Set Matrix Zeroes (#73)
 - [ ] Valid Sudoku (#36)
 - [ ] Reshape the Matrix (#566)
@@ -363,7 +363,7 @@ _Уровень 4 итого: 20 задач (сортировка + backtracking
 - [*] Array Prototype Last (#2619) — расширение `Array.prototype`, `this`
 - [*] Sort By (#2724) _(решил на сайте)_
 - [*] Group By (#2631) — Medium _(перерещать, пересмотреть for in, for of)_
-- [ ] Join Two Arrays by ID (#2722) — Medium, мостик к хеш-таблицам (модуль 7)
+- [*] Join Two Arrays by ID (#2722) — Medium, мостик к хеш-таблицам (модуль 7) _(перерещать с Map)_
 
 ## J5. Вложенные структуры (рекурсия)
 
