@@ -16,7 +16,8 @@
 // const cancelTimeMs = 50;
 // const cancelFn = cancellable((x) => x * 5, [2], 20);
 // setTimeout(cancelFn, cancelTimeMs);
-// The cancellation was scheduled to occur after a delay of cancelTimeMs (50ms), which happened after the execution of fn(2) at 20ms.
+// The cancellation was scheduled to occur after a delay of cancelTimeMs (50ms),
+// which happened after the execution of fn(2) at 20ms.
 
 // Example 2:
 // Input: fn = (x) => x**2, args = [2], t = 100
@@ -25,7 +26,8 @@
 // const cancelTimeMs = 50;
 // const cancelFn = cancellable((x) => x**2, [2], 100);
 // setTimeout(cancelFn, cancelTimeMs);
-// The cancellation was scheduled to occur after a delay of cancelTimeMs (50ms), which happened before the execution of fn(2) at 100ms, resulting in fn(2) never being called.
+// The cancellation was scheduled to occur after a delay of cancelTimeMs (50ms),
+// which happened before the execution of fn(2) at 100ms, resulting in fn(2) never being called.
 
 // Example 3:
 // Input: fn = (x1, x2) => x1 * x2, args = [2,4], t = 30
@@ -34,4 +36,40 @@
 // const cancelTimeMs = 100;
 // const cancelFn = cancellable((x1, x2) => x1 * x2, [2,4], 30);
 // setTimeout(cancelFn, cancelTimeMs);
-// The cancellation was scheduled to occur after a delay of cancelTimeMs (100ms), which happened after the execution of fn(2,4) at 30ms.
+// The cancellation was scheduled to occur after a delay of cancelTimeMs (100ms),
+// which happened after the execution of fn(2,4) at 30ms.
+
+type JSONValue =
+  | null
+  | boolean
+  | number
+  | string
+  | JSONValue[]
+  | { [key: string]: JSONValue };
+type Fn = (...args: JSONValue[]) => void;
+
+// Возвращаем функцию, которая вызывает clearTimeout(timer), то есть удаляет запланированный таймер.
+// Всё держится на замыкании: clear «помнит» переменную timer даже после того, как cancellable завершилась.
+// clear объявлена раньше timer, но ошибки нет.
+// Тело clear выполняется позже, при её вызове, и к этому моменту timer уже существует.
+function cancellable(fn: Fn, args: JSONValue[], t: number): Function {
+  const clear = function () {
+    clearTimeout(timer);
+  };
+
+  const timer = setTimeout(() => {
+    console.log(fn(...args));
+  }, t);
+
+  return clear;
+}
+
+const fn: any = (x1: number, x2: number) => x1 * x2,
+  args = [2, 4],
+  t = 1000;
+
+const cancelFn = cancellable(fn, args, t);
+setTimeout(() => {
+  console.log('timeout');
+  cancelFn();
+}, 20);

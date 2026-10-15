@@ -385,9 +385,9 @@ _Уровень 4 итого: 20 задач (сортировка + backtracking
 **Понять:** `Promise`, `async/await`, `setTimeout` / `setInterval` и их отмена через `clearTimeout` / `clearInterval`.
 
 - [*] Add Two Promises (#2723) — база
-- [ ] Sleep (#2621)
-- [ ] Timeout Cancellation (#2715)
-- [ ] Interval Cancellation (#2725)
+- [*] Sleep (#2621)
+- [*] Timeout Cancellation (#2715)
+- [*] Interval Cancellation (#2725)
 
 ## J8. Асинхронные паттерны
 
