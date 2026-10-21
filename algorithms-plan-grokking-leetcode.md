@@ -64,9 +64,9 @@
 - [*] Transpose Matrix (#867) — база _(посмотреть др. варианты решений)_
 - [*] Spiral Matrix (#54)
 - [*] Rotate Image (#48) _(решил O(N³), перерешать на Транспонирование + разворот строк)_
-- [ ] Set Matrix Zeroes (#73)
-- [ ] Valid Sudoku (#36)
-- [ ] Reshape the Matrix (#566)
+- [*] Set Matrix Zeroes (#73)
+- [*] Valid Sudoku (#36) _(перерещать, понять просчет квадрата 3х3)_
+- [*] Reshape the Matrix (#566)
 
 ## 4. Префиксная сумма (задачи 19–23)
 
