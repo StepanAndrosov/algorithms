@@ -72,9 +72,9 @@
 
 **Понять:** как заменить повторный пересчёт суммы на O(1)-запрос после O(n) препроцессинга.
 
-- [ ] Find Pivot Index (#724) — база
-- [ ] Range Sum Query - Immutable (#303)
-- [ ] Product of Array Except Self (#238)
+- [*] Find Pivot Index (#724) — база
+- [*] Range Sum Query - Immutable (#303)
+- [ ] Product of Array Except Self (#238) _(сложно)_
 - [ ] Running Sum of 1d Array (#1480)
 - [ ] Contiguous Array (#525) — бонус, сложнее (префиксная сумма + хеш-таблица)
 
