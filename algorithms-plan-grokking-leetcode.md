@@ -74,8 +74,8 @@
 
 - [*] Find Pivot Index (#724) — база
 - [*] Range Sum Query - Immutable (#303)
-- [ ] Product of Array Except Self (#238) _(сложно)_
-- [ ] Running Sum of 1d Array (#1480)
+- [*] Product of Array Except Self (#238) _(сложно)_
+- [*] Running Sum of 1d Array (#1480)
 - [ ] Contiguous Array (#525) — бонус, сложнее (префиксная сумма + хеш-таблица)
 
 ## 5. Модуло, целочисленное деление (задачи 24–28)
