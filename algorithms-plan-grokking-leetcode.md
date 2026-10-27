@@ -76,13 +76,13 @@
 - [*] Range Sum Query - Immutable (#303)
 - [*] Product of Array Except Self (#238) _(сложно)_
 - [*] Running Sum of 1d Array (#1480)
-- [ ] Contiguous Array (#525) — бонус, сложнее (префиксная сумма + хеш-таблица)
+- [ ] Contiguous Array (#525) — бонус, сложнее (префиксная сумма + хеш-таблица) _(later)_
 
 ## 5. Модуло, целочисленное деление (задачи 24–28)
 
 **Понять:** работу с числами без builtin bignum — перенос разряда, извлечение цифр через `% 10` / `/ 10`.
 
-- [ ] Plus One (#66) — база
+- [*] Plus One (#66) — база
 - [ ] Reverse Integer (#7)
 - [ ] Palindrome Number (#9)
 - [ ] Happy Number (#202)
@@ -103,7 +103,7 @@
 
 **Понять:** хеширование, коллизии, когда хеш-таблица (ключ → значение) бьёт всё остальное.
 
-- [ ] Two Sum (#1)
+- [*] Two Sum (#1)
 - [ ] Valid Anagram (#242)
 - [ ] Group Anagrams (#49) — база
 - [ ] Top K Frequent Elements (#347)
