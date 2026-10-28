@@ -8,7 +8,7 @@
 - Пиши всё на TypeScript.
 - Разминка в начале сессии — 1–2 задачи из JS-трека (см. раздел в конце плана); Codewars 7–6 kyu — опционально.
 - Если у задачи на LeetCode замок (premium) — берём бесплатный аналог (см. модуль «Интервалы»).
-- `[*]` — уже решено, `[ ]` — предстоит.
+- `[x]` — уже решено, `[ ]` — предстоит.
 
 **Итог по времени** (детали и допущения — см. таблицу и разделы ниже):
 
@@ -37,53 +37,53 @@
 
 **Понять:** амортизированную стоимость операций над массивом, in-place модификации.
 
-- [*] Can Place Flowers (#605) — база
-- [*] Remove Duplicates from Sorted Array (#26)
-- [*] Nearest Available Drone (#4024) _(решена, идею понял, нужно прорешать еще)_
-- [*] Elevator Requests I (#4020)
-- [*] Find All Numbers Disappeared in an Array (#448)
-- [*] Missing Number (#268)
-- [*] Move Zeroes (#283)
-- [*] Rotate Array (#189) _(перерещать после 5. Модуло, целочисленное деление)_
+- [x] Can Place Flowers (#605) — база
+- [x] Remove Duplicates from Sorted Array (#26)
+- [x] Nearest Available Drone (#4024) _(решена, идею понял, нужно прорешать еще)_
+- [x] Elevator Requests I (#4020)
+- [x] Find All Numbers Disappeared in an Array (#448)
+- [x] Missing Number (#268)
+- [x] Move Zeroes (#283)
+- [x] Rotate Array (#189) _(перерещать после 5. Модуло, целочисленное деление)_
 
 ## 2. Строки (задачи 8–13)
 
 **Понять:** строки как массивы символов, immutability строк в некоторых языках.
 
-- [*] Reverse String (#344) — база
-- [*] Valid Palindrome (#125)
-- [*] Longest Common Prefix (#14) _(перерещать)_
-- [*] Ransom Note (#383)
-- [*] Find the Index of the First Occurrence in a String (#28) _(перерещать)_
-- [*] Reverse Words in a String (#151)
+- [x] Reverse String (#344) — база
+- [x] Valid Palindrome (#125)
+- [x] Longest Common Prefix (#14) _(перерещать)_
+- [x] Ransom Note (#383)
+- [x] Find the Index of the First Occurrence in a String (#28) _(перерещать)_
+- [x] Reverse Words in a String (#151)
 
 ## 3. Матрицы (задачи 14–19)
 
 **Понять:** индексацию по строкам/столбцам, обход по слоям.
 
-- [*] Transpose Matrix (#867) — база _(посмотреть др. варианты решений)_
-- [*] Spiral Matrix (#54)
-- [*] Rotate Image (#48) _(решил O(N³), перерешать на Транспонирование + разворот строк)_
-- [*] Set Matrix Zeroes (#73)
-- [*] Valid Sudoku (#36) _(перерещать, понять просчет квадрата 3х3)_
-- [*] Reshape the Matrix (#566)
+- [x] Transpose Matrix (#867) — база _(посмотреть др. варианты решений)_
+- [x] Spiral Matrix (#54)
+- [x] Rotate Image (#48) _(решил O(N³), перерешать на Транспонирование + разворот строк)_
+- [x] Set Matrix Zeroes (#73)
+- [x] Valid Sudoku (#36) _(перерещать, понять просчет квадрата 3х3)_
+- [x] Reshape the Matrix (#566)
 
 ## 4. Префиксная сумма (задачи 19–23)
 
 **Понять:** как заменить повторный пересчёт суммы на O(1)-запрос после O(n) препроцессинга.
 
-- [*] Find Pivot Index (#724) — база
-- [*] Range Sum Query - Immutable (#303)
-- [*] Product of Array Except Self (#238) _(сложно)_
-- [*] Running Sum of 1d Array (#1480)
+- [x] Find Pivot Index (#724) — база
+- [x] Range Sum Query - Immutable (#303)
+- [x] Product of Array Except Self (#238) _(сложно)_
+- [x] Running Sum of 1d Array (#1480)
 - [ ] Contiguous Array (#525) — бонус, сложнее (префиксная сумма + хеш-таблица) _(later)_
 
 ## 5. Модуло, целочисленное деление (задачи 24–28)
 
 **Понять:** работу с числами без builtin bignum — перенос разряда, извлечение цифр через `% 10` / `/ 10`.
 
-- [*] Plus One (#66) — база
-- [*] Reverse Integer (#7) _(Math.trunc)_
+- [x] Plus One (#66) — база
+- [x] Reverse Integer (#7) _(Math.trunc)_
 - [ ] Palindrome Number (#9)
 - [ ] Happy Number (#202)
 - [ ] Add Digits (#258)
@@ -92,7 +92,7 @@
 
 **Понять:** хеш-сет = хеш-таблица без значений, когда достаточно факта «видели/не видели».
 
-- [*] Contains Duplicate (#217) — база _(перерещать)_
+- [x] Contains Duplicate (#217) — база _(перерещать)_
 - [ ] Single Number (#136)
 - [ ] Design HashSet (#705) — реализовать структуру своими руками
 - [ ] Intersection of Two Arrays (#349)
@@ -103,7 +103,7 @@
 
 **Понять:** хеширование, коллизии, когда хеш-таблица (ключ → значение) бьёт всё остальное.
 
-- [*] Two Sum (#1)
+- [x] Two Sum (#1)
 - [ ] Valid Anagram (#242)
 - [ ] Group Anagrams (#49) — база
 - [ ] Top K Frequent Elements (#347)
@@ -274,9 +274,9 @@ _После этого модуля — ровно **100** решённых за
 
 **Понять:** разделяй-и-властвуй на примере сортировки, почему quicksort в среднем O(n log n), идею partition — она же опора для quickselect.
 
-- [*] Реализовать merge sort с нуля на TS
-- [*] Реализовать quicksort с нуля на TS
-- [*] Sort an Array (#912) — база
+- [x] Реализовать merge sort с нуля на TS
+- [x] Реализовать quicksort с нуля на TS
+- [x] Sort an Array (#912) — база
 - [ ] Merge Sorted Array (#88)
 - [ ] Kth Largest Element in an Array (#215) — quickselect на базе partition
 
@@ -341,29 +341,29 @@ _Уровень 4 итого: 20 задач (сортировка + backtracking
 
 **Понять:** как устроены `map` / `filter` / `reduce` изнутри — реализовать их без встроенных методов.
 
-- [*] Apply Transform Over Each Element in Array (#2635) — база
-- [*] Filter Elements from Array (#2634)
-- [*] Array Reduce Transformation (#2626)
+- [x] Apply Transform Over Each Element in Array (#2635) — база
+- [x] Filter Elements from Array (#2634)
+- [x] Array Reduce Transformation (#2626)
 
 ## J3. Преобразования функций
 
 **Понять:** функции высшего порядка, rest-параметры, композиция, обёртки над функцией (once, memoize).
 
-- [*] Return Length of Arguments Passed (#2703) — база
-- [*] Function Composition (#2629)
-- [*] Allow One Function Call (#2666)
-- [*] Memoize (#2623) — Medium, ключ кеша из аргументов _(перерещать)_
+- [x] Return Length of Arguments Passed (#2703) — база
+- [x] Function Composition (#2629)
+- [x] Allow One Function Call (#2666)
+- [x] Memoize (#2623) — Medium, ключ кеша из аргументов _(перерещать)_
 
 ## J4. Объекты и массивы: утилиты
 
 **Понять:** работу с объектами как словарями, расширение прототипа, сортировку с компаратором, группировку.
 
-- [*] Is Object Empty (#2727) — база
-- [*] Chunk Array (#2677) _(resolve with slice)_
-- [*] Array Prototype Last (#2619) — расширение `Array.prototype`, `this`
-- [*] Sort By (#2724) _(решил на сайте)_
-- [*] Group By (#2631) — Medium _(перерещать, пересмотреть for in, for of)_
-- [*] Join Two Arrays by ID (#2722) — Medium, мостик к хеш-таблицам (модуль 7) _(перерещать с Map)_
+- [x] Is Object Empty (#2727) — база
+- [x] Chunk Array (#2677) _(resolve with slice)_
+- [x] Array Prototype Last (#2619) — расширение `Array.prototype`, `this`
+- [x] Sort By (#2724) _(решил на сайте)_
+- [x] Group By (#2631) — Medium _(перерещать, пересмотреть for in, for of)_
+- [x] Join Two Arrays by ID (#2722) — Medium, мостик к хеш-таблицам (модуль 7) _(перерещать с Map)_
 
 ## J5. Вложенные структуры (рекурсия)
 
@@ -384,10 +384,10 @@ _Уровень 4 итого: 20 задач (сортировка + backtracking
 
 **Понять:** `Promise`, `async/await`, `setTimeout` / `setInterval` и их отмена через `clearTimeout` / `clearInterval`.
 
-- [*] Add Two Promises (#2723) — база
-- [*] Sleep (#2621)
-- [*] Timeout Cancellation (#2715)
-- [*] Interval Cancellation (#2725)
+- [x] Add Two Promises (#2723) — база
+- [x] Sleep (#2621)
+- [x] Timeout Cancellation (#2715)
+- [x] Interval Cancellation (#2725)
 
 ## J8. Асинхронные паттерны
 
