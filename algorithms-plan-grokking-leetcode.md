@@ -83,7 +83,7 @@
 **Понять:** работу с числами без builtin bignum — перенос разряда, извлечение цифр через `% 10` / `/ 10`.
 
 - [*] Plus One (#66) — база
-- [ ] Reverse Integer (#7)
+- [*] Reverse Integer (#7) _(Math.trunc)_
 - [ ] Palindrome Number (#9)
 - [ ] Happy Number (#202)
 - [ ] Add Digits (#258)
